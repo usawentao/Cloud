@@ -17,7 +17,7 @@ public class ClientApplication {
 		SpringApplication.run(ClientApplication.class, args);
 	}
 
-	@Value("{server.port}")
+	@Value("${server.port}")
 	String port;
 
 	@RequestMapping("/hi")
