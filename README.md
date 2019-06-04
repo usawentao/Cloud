@@ -1,6 +1,6 @@
 # Cloud
 微服务
-简介：微服务初步搭建以及简单的示例
+简介：微服务初步搭建以及简单的示例<br>
 1、父级模块:chapter1<br>
 2、服务注册中心:eurekaserver<br>
 3、服务:client<br>
