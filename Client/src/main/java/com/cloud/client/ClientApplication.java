@@ -1,4 +1,4 @@
-package com.cloud.servicehi;
+package com.cloud.client;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -11,17 +11,17 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableEurekaClient
 @RestController
-public class ServiceHiApplication {
+public class ClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceHiApplication.class, args);
+		SpringApplication.run(ClientApplication.class, args);
 	}
 
-	@Value("${server.port}")
+	@Value("{server.port}")
 	String port;
 
 	@RequestMapping("/hi")
-	public String home(@RequestParam(value = "name",defaultValue = "Edward·Che") String name){
+	public String hi(@RequestParam(value = "name",defaultValue = "Edward·Che") String name){
 		return "hi" + name + ",i am from port:" + port;
 	}
 

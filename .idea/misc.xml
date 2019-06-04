@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/EurekaServer/pom.xml" />
         <option value="$PROJECT_DIR$/sc-f-chapter1/pom.xml" />
         <option value="$PROJECT_DIR$/EurekaClient/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceRibbon/pom.xml" />
+        <option value="$PROJECT_DIR$/Client/pom.xml" />
       </list>
     </option>
   </component>
