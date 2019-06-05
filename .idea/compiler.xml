@@ -16,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Client" target="1.8" />
+      <module name="configparent" target="1.8" />
       <module name="EurekaClient" target="1.8" />
       <module name="EurekaServer" target="1.8" />
       <module name="sc-f-chapter1" target="1.8" />
