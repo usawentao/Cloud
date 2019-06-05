@@ -8,3 +8,12 @@ spring:
       label: master # \u6307\u660E\u8FDC\u7A0B\u4ED3\u5E93\u7684\u5206\u652F
       profile: dev
       uri: http://localhost:8888/ # \u6307\u660E\u914D\u7F6E\u670D\u52A1\u4E2D\u5FC3\u7684\u5730\u5740
+      discovery:
+        enabled: true # \u4ECE\u914D\u7F6E\u4E2D\u5FC3\u8BFB\u53D6\u6587\u4EF6\u5185\u5BB9
+        service-id: config-server # \u914D\u7F6E\u4E2D\u5FC3\u7684servieId\uFF0C\u5373\u670D\u52A1\u540D
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8889/eureka/
