@@ -9,3 +9,5 @@
 6、【Hystrix功能模块】为了避免线程阻塞带来的服务器“雪崩”现象。springcloud引用Hystrix组件来进行断路由，以此模式模型来进行避免线程阻塞所带来的致命的问题。<br>
 7、【Zuul功能模块】Zuul的主要功能是路由转发和过滤器。zuul本身已经集成了hystrix和ribbon，所以zuul天生自带**线程隔离**和**断路由**的功能。<br>
 8、【config配置中心】微服务一般是集群式的服务集群，因此考虑到服务的数量繁多，为了方便管理统一配置，我们便需要一个分布式配置中心组件Spring Cloud Config来进行配置管理。组件的组成：config server和config client。<br>
+9、【Spring Cloud Bus微服务通讯】顾名思义即可清楚该组件应用于微服务之间的相互作用，可用于微服务之间的：通讯、监控。<br>
+
