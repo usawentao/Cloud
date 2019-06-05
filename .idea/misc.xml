@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
         <option value="$PROJECT_DIR$/ConfigClient/pom.xml" />
         <option value="$PROJECT_DIR$/ConfigEurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/server-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceHi/pom.xml" />
       </list>
     </option>
   </component>

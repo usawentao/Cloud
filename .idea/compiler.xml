@@ -13,6 +13,7 @@
         <module name="EurekaClient" />
         <module name="EurekaServer" />
         <module name="ServiceFeign" />
+        <module name="ServiceHi" />
         <module name="ServiceRibbon" />
         <module name="ServiceZuul" />
       </profile>
@@ -26,7 +27,10 @@
       <module name="EurekaClient" target="1.8" />
       <module name="EurekaServer" target="1.8" />
       <module name="sc-f-chapter1" target="1.8" />
+      <module name="server-zipkin" target="1.8" />
+      <module name="ServerZipkin" target="1.8" />
       <module name="ServiceFeign" target="1.8" />
+      <module name="ServiceHi" target="1.8" />
       <module name="ServiceRibbon" target="1.8" />
       <module name="ServiceZuul" target="1.8" />
     </bytecodeTargetLevel>
