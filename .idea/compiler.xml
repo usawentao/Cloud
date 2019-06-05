@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Client" />
         <module name="ConfigClient" />
+        <module name="ConfigEurekaServer" />
         <module name="ConfigServer" />
         <module name="EurekaClient" />
         <module name="EurekaServer" />
@@ -19,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="Client" target="1.8" />
       <module name="ConfigClient" target="1.8" />
+      <module name="ConfigEurekaServer" target="1.8" />
       <module name="configparent" target="1.8" />
       <module name="ConfigServer" target="1.8" />
       <module name="EurekaClient" target="1.8" />
