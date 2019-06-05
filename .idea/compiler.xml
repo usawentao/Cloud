@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Client" />
+        <module name="ConfigServer" />
         <module name="EurekaClient" />
         <module name="EurekaServer" />
         <module name="ServiceFeign" />
@@ -17,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="Client" target="1.8" />
       <module name="configparent" target="1.8" />
+      <module name="ConfigServer" target="1.8" />
       <module name="EurekaClient" target="1.8" />
       <module name="EurekaServer" target="1.8" />
       <module name="sc-f-chapter1" target="1.8" />
