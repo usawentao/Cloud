@@ -1,0 +1,14 @@
+server:
+  port: 8760
+spring:
+  application:
+    name: eureka-server
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: test1
+  client:
+    service-url:
+      defaultZone: http://peer2:8761/eureka/
+    register-with-eureka: false
+    fetch-registry: false

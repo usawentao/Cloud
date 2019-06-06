@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/ConfigServer/ConfigServer.iml" filepath="$PROJECT_DIR$/ConfigServer/ConfigServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaClient/EurekaClient.iml" filepath="$PROJECT_DIR$/EurekaClient/EurekaClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Register2/Register2.iml" filepath="$PROJECT_DIR$/Register2/Register2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rejister1/Rejister1.iml" filepath="$PROJECT_DIR$/Rejister1/Rejister1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServiceFeign/ServiceFeign.iml" filepath="$PROJECT_DIR$/ServiceFeign/ServiceFeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServiceHi/ServiceHi.iml" filepath="$PROJECT_DIR$/ServiceHi/ServiceHi.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServiceMiya/ServiceMiya.iml" filepath="$PROJECT_DIR$/ServiceMiya/ServiceMiya.iml" />
