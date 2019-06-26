@@ -30,6 +30,7 @@
         <module>sc-f-chapter1</module>
         <module>EurekaServer</module>
         <module>EurekaClient</module>
+        <module>Gateway</module>
     </modules>
 
     <dependencies>

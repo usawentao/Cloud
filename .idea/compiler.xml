@@ -12,6 +12,7 @@
         <module name="ConfigServer" />
         <module name="EurekaClient" />
         <module name="EurekaServer" />
+        <module name="Gateway" />
         <module name="Register2" />
         <module name="Rejister1" />
         <module name="ServiceFeign" />
@@ -23,12 +24,14 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Client" target="1.8" />
+      <module name="Cloud" target="1.8" />
       <module name="ConfigClient" target="1.8" />
       <module name="ConfigEurekaServer" target="1.8" />
       <module name="configparent" target="1.8" />
       <module name="ConfigServer" target="1.8" />
       <module name="EurekaClient" target="1.8" />
       <module name="EurekaServer" target="1.8" />
+      <module name="Gateway" target="1.8" />
       <module name="Register2" target="1.8" />
       <module name="Rejister1" target="1.8" />
       <module name="sc-f-chapter1" target="1.8" />
