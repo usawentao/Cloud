@@ -1,0 +1,9 @@
+# 匹配请求中路径满足/foo/{segment}的请求将会被放行匹配且被路由。  验证：curl localhost:8081/foo/dew
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: path_route
+        uri: http://httpbin.org:80/get
+        predicates:
+        - Path=/foo/{segment}

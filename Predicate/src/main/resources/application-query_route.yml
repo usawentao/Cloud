@@ -1,0 +1,9 @@
+# 配置了请求中含有参数foo，并且foo的值匹配ba则放行路由。  验证：curl localhost:8081?foo=bar
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: query_route
+        uri: http://httpbin.org:80/get
+        predicates:
+        - Query=foo, ba.

@@ -14,6 +14,7 @@
         <module name="EurekaClient" />
         <module name="EurekaServer" />
         <module name="Gateway" />
+        <module name="Predicate" />
         <module name="Register2" />
         <module name="Rejister1" />
         <module name="ServiceFeign" />
@@ -33,6 +34,7 @@
       <module name="EurekaClient" target="1.8" />
       <module name="EurekaServer" target="1.8" />
       <module name="Gateway" target="1.8" />
+      <module name="Predicate" target="1.8" />
       <module name="Register2" target="1.8" />
       <module name="Rejister1" target="1.8" />
       <module name="sc-f-chapter1" target="1.8" />

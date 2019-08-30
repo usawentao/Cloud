@@ -1,0 +1,9 @@
+#匹配请求头中的host的值为**.edward.com时放行。  验证：curl -H 'Host:www.edward.com' localhost:8081
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: host_route
+        uri: http://httpbin.org:80/get
+        predicates:
+        - Host=**.edward.com

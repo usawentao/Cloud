@@ -1,0 +1,9 @@
+# 配置访问方式转发路由，例如GET访问的统一转发到uri。  验证：curl -XGET localhost:8081 或者  curl localhost:8081
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: method_route
+        uri: http://httpbin.org:80/get
+        predicates:
+        - Method=GET

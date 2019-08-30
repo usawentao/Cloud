@@ -1,0 +1,9 @@
+#在header中匹配断言X-Request-Id是整数时放行。  验证：curl -H 'X-Request-Id:1' localhost:8081
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: header_route
+        uri: http://httpbin.org:80/get
+        predicates:
+        - Header=X-Request-Id, \d+
