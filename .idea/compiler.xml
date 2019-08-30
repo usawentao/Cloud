@@ -13,6 +13,7 @@
         <module name="ConfigServer" />
         <module name="EurekaClient" />
         <module name="EurekaServer" />
+        <module name="Filter" />
         <module name="Gateway" />
         <module name="Predicate" />
         <module name="Register2" />
@@ -33,6 +34,7 @@
       <module name="ConfigServer" target="1.5" />
       <module name="EurekaClient" target="1.8" />
       <module name="EurekaServer" target="1.8" />
+      <module name="Filter" target="1.8" />
       <module name="Gateway" target="1.8" />
       <module name="Predicate" target="1.8" />
       <module name="Register2" target="1.8" />

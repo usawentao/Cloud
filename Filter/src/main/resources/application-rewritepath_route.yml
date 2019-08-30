@@ -1,0 +1,14 @@
+# 重写路径  相当于重定位
+spring:
+  cloud:
+    gateway:
+      routes:
+      # 创建id为rewritepath_route的router
+      - id: rewritepath_route
+        uri: https://blog.csdn.net
+        # 执行过滤器的逻辑
+        predicates:
+        - Path=/foo/**
+        filters:
+        # 工厂将/foo/(?.*)重写为{segment},然后转发到https://blog.csdn.net
+        - RewritePath=/foo/(?<segment>.*), /$\{segment}

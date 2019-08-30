@@ -1,0 +1,14 @@
+# 在请求头中添加属性。  验证：curl localhost:8081
+spring:
+  cloud:
+    gateway:
+      routes:
+      # 配置id为add_request_header_route的router
+      - id: add_request_header_route
+        # 路由地址为：http://httpbin.org:80/get
+        uri: http://httpbin.org:80/get
+        filters:
+        # 过滤器工厂会在请求头加上一对请求头，名称为X-Request-Foo，值为Bar
+        - AddRequestHeader=X-Request-Foo, Bar
+        predicates:
+        - After=2017-01-20T17:42:47.789-07:00[America/Denver]

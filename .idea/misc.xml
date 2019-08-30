@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/Gateway/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Predicate/pom.xml" />
+        <option value="$PROJECT_DIR$/Filter/pom.xml" />
       </list>
     </option>
   </component>
