@@ -22,7 +22,7 @@ public class RequestTimeFilter implements GatewayFilter, Ordered {
                     //记录请求的开始时间，并保存在ServerWebExchange中
                     Long startTime = exchange.getAttribute(REQUEST_TIME_BEGIN);
                     if(startTime != null){
-                        //在控制台打印访问时间 
+                        //在控制台打印访问时间
                         log.info(exchange.getRequest().getURI().getRawPath() + ":" +(System.currentTimeMillis() - startTime)+ "ms");
                     }
                 })
