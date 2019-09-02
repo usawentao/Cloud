@@ -1,6 +1,7 @@
 package com.gateway.filter;
 
 import com.gateway.filter.filters.RequestTimeFilter;
+import com.gateway.filter.filters.RequestTimeGatewayFilterFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.gateway.route.RouteLocator;
@@ -27,5 +28,11 @@ public class FilterApplication {
 				)
 				.build();
 		// @formatter:on
+	}
+
+	//向Spring IOC容器注入RequestTimeGatewayFilterFactory类的Bean
+	@Bean
+	public RequestTimeGatewayFilterFactory elapsedGatewayFilterFactory(){
+		return new RequestTimeGatewayFilterFactory();
 	}
 }
