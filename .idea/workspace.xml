@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25ae394e-f2dc-457e-851b-795d01c63412" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_55.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/RequestTimeGatewayFilterFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Filter/src/main/resources/application-elapse_route.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/TokenFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Filter/pom.xml" afterPath="$PROJECT_DIR$/Filter/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/FilterApplication.java" afterPath="$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/FilterApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Filter/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/Filter/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/EurekaServer/target/" />
     <ignored path="$PROJECT_DIR$/EurekaClient/target/" />
@@ -71,14 +67,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FilterApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/FilterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+            <state relative-caret-position="638">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
+                <element signature="e#1271#1272#0" expanded="true" />
+                <element signature="e#1354#1355#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,30 +88,6 @@
             <state relative-caret-position="88">
               <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestTimeGatewayFilterFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/RequestTimeGatewayFilterFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestTimeFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/RequestTimeFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -155,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
         <option value="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ConfigServer/src/main/java/com/cloud/configserver/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/ConfigClient/pom.xml" />
@@ -202,10 +175,11 @@
         <option value="$PROJECT_DIR$/Filter/src/main/resources/application-add_request_header_route.yml" />
         <option value="$PROJECT_DIR$/Filter/src/main/resources/application-rewritepath_route.yml" />
         <option value="$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/RequestTimeFilter.java" />
-        <option value="$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/FilterApplication.java" />
         <option value="$PROJECT_DIR$/Filter/src/main/resources/application-elapse_route.yml" />
         <option value="$PROJECT_DIR$/Filter/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/RequestTimeGatewayFilterFactory.java" />
+        <option value="$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/TokenFilter.java" />
+        <option value="$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/FilterApplication.java" />
       </list>
     </option>
   </component>
@@ -683,12 +657,12 @@
       <workItem from="1567143859822" duration="145000" />
       <workItem from="1567144065826" duration="12581000" />
       <workItem from="1567212197405" duration="2428000" />
-      <workItem from="1567388336863" duration="3960000" />
+      <workItem from="1567388336863" duration="4370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119892000" />
+    <option name="totallyTimeSpent" value="120302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -745,13 +719,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Register2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rejister1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1032,14 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Filter/src/main/resources/application-rewritepath_route.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Filter/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1048,13 +1007,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/FilterApplication.java">
+    <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/TokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        <state relative-caret-position="308">
+          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/RequestTimeGatewayFilterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1067,9 +1037,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Filter/src/main/resources/application-rewritepath_route.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/RequestTimeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="66">
           <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1077,12 +1055,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/filters/RequestTimeGatewayFilterFactory.java">
+    <entry file="file://$PROJECT_DIR$/Filter/src/main/java/com/gateway/filter/FilterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        <state relative-caret-position="638">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
           </folding>
         </state>
       </provider>

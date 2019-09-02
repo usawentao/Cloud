@@ -2,6 +2,7 @@ package com.gateway.filter;
 
 import com.gateway.filter.filters.RequestTimeFilter;
 import com.gateway.filter.filters.RequestTimeGatewayFilterFactory;
+import com.gateway.filter.filters.TokenFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.gateway.route.RouteLocator;
@@ -34,5 +35,11 @@ public class FilterApplication {
 	@Bean
 	public RequestTimeGatewayFilterFactory elapsedGatewayFilterFactory(){
 		return new RequestTimeGatewayFilterFactory();
+	}
+
+	//将TokenFilter在工程的启动类中注入到Spring Ioc容器中
+	@Bean
+	public TokenFilter tokenFilter(){
+		return new TokenFilter();
 	}
 }
